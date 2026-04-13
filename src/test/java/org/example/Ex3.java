@@ -15,9 +15,10 @@ public class Ex3 {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless");     // Runs without a GUI
-        options.addArguments("--no-sandbox");    // Fixes permissions issues in Linux
-        options.addArguments("--disable-dev-shm-usage"); // Prevents "out of memory" errors
+        options.addArguments("--headless");
+        options.addArguments("--no-sandbox");
+        options.addArguments("--disable-dev-shm-usage");
+        options.addArguments("--window-size=1920,1080");
         driver = new ChromeDriver(options);
     }
 
