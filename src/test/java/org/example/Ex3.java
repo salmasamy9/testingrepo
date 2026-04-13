@@ -3,6 +3,7 @@ package org.example;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
@@ -13,6 +14,11 @@ public class Ex3 {
     public void setup() {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--headless");     // Runs without a GUI
+        options.addArguments("--no-sandbox");    // Fixes permissions issues in Linux
+        options.addArguments("--disable-dev-shm-usage"); // Prevents "out of memory" errors
+        driver = new ChromeDriver(options);
     }
 
 
