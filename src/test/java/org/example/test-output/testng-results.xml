@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-13T21:40:06 EET" name="V4BankGroupingSuite" finished-at="2026-04-13T21:40:17 EET" duration-ms="10994">
+    <groups>
+      <group name="Regression">
+        <method signature="Ex3.testAccountBalance()[pri:0, instance:org.example.Ex3@11a9e7c8]" name="testAccountBalance" class="org.example.Ex3"/>
+        <method signature="Ex3.testLoginInvalidCreds()[pri:0, instance:org.example.Ex3@11a9e7c8]" name="testLoginInvalidCreds" class="org.example.Ex3"/>
+        <method signature="Ex3.testLoginValidCreds()[pri:0, instance:org.example.Ex3@11a9e7c8]" name="testLoginValidCreds" class="org.example.Ex3"/>
+        <method signature="Ex3.testPasswordReset()[pri:0, instance:org.example.Ex3@11a9e7c8]" name="testPasswordReset" class="org.example.Ex3"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="Ex3.testFooterLinks()[pri:0, instance:org.example.Ex3@5c1a8622]" name="testFooterLinks" class="org.example.Ex3"/>
+        <method signature="Ex3.testHomepageLoads()[pri:0, instance:org.example.Ex3@5c1a8622]" name="testHomepageLoads" class="org.example.Ex3"/>
+        <method signature="Ex3.testLoginPageVisible()[pri:0, instance:org.example.Ex3@5c1a8622]" name="testLoginPageVisible" class="org.example.Ex3"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2026-04-13T21:40:06 EET" name="SmokeTests" finished-at="2026-04-13T21:40:11 EET" duration-ms="4942">
+      <class name="org.example.Ex3">
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.Ex3@5c1a8622]" started-at="2026-04-13T21:40:06 EET" name="setup" finished-at="2026-04-13T21:40:08 EET" duration-ms="1650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="logSmokeStart()[pri:0, instance:org.example.Ex3@5c1a8622]" started-at="2026-04-13T21:40:08 EET" name="logSmokeStart" finished-at="2026-04-13T21:40:08 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logSmokeStart -->
+        <test-method signature="testFooterLinks()[pri:0, instance:org.example.Ex3@5c1a8622]" started-at="2026-04-13T21:40:08 EET" name="testFooterLinks" finished-at="2026-04-13T21:40:10 EET" duration-ms="2596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFooterLinks -->
+        <test-method signature="testHomepageLoads()[pri:0, instance:org.example.Ex3@5c1a8622]" started-at="2026-04-13T21:40:10 EET" name="testHomepageLoads" finished-at="2026-04-13T21:40:11 EET" duration-ms="572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomepageLoads -->
+        <test-method signature="testLoginPageVisible()[pri:0, instance:org.example.Ex3@5c1a8622]" started-at="2026-04-13T21:40:11 EET" name="testLoginPageVisible" finished-at="2026-04-13T21:40:11 EET" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPageVisible -->
+        <test-method is-config="true" signature="QuitDriver()[pri:0, instance:org.example.Ex3@5c1a8622]" started-at="2026-04-13T21:40:11 EET" name="QuitDriver" finished-at="2026-04-13T21:40:11 EET" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitDriver -->
+      </class> <!-- org.example.Ex3 -->
+    </test> <!-- SmokeTests -->
+    <test started-at="2026-04-13T21:40:11 EET" name="RegressionTests" finished-at="2026-04-13T21:40:17 EET" duration-ms="6020">
+      <class name="org.example.Ex3">
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.Ex3@11a9e7c8]" started-at="2026-04-13T21:40:11 EET" name="setup" finished-at="2026-04-13T21:40:12 EET" duration-ms="1417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAccountBalance()[pri:0, instance:org.example.Ex3@11a9e7c8]" started-at="2026-04-13T21:40:12 EET" name="testAccountBalance" finished-at="2026-04-13T21:40:12 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAccountBalance -->
+        <test-method signature="testLoginInvalidCreds()[pri:0, instance:org.example.Ex3@11a9e7c8]" started-at="2026-04-13T21:40:12 EET" name="testLoginInvalidCreds" finished-at="2026-04-13T21:40:15 EET" duration-ms="2182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginInvalidCreds -->
+        <test-method signature="testLoginValidCreds()[pri:0, instance:org.example.Ex3@11a9e7c8]" started-at="2026-04-13T21:40:15 EET" name="testLoginValidCreds" finished-at="2026-04-13T21:40:17 EET" duration-ms="2330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginValidCreds -->
+        <test-method signature="testPasswordReset()[pri:0, instance:org.example.Ex3@11a9e7c8]" started-at="2026-04-13T21:40:17 EET" name="testPasswordReset" finished-at="2026-04-13T21:40:17 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordReset -->
+        <test-method is-config="true" signature="logRegressionEnd()[pri:0, instance:org.example.Ex3@11a9e7c8]" started-at="2026-04-13T21:40:17 EET" name="logRegressionEnd" finished-at="2026-04-13T21:40:17 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logRegressionEnd -->
+        <test-method is-config="true" signature="QuitDriver()[pri:0, instance:org.example.Ex3@11a9e7c8]" started-at="2026-04-13T21:40:17 EET" name="QuitDriver" finished-at="2026-04-13T21:40:17 EET" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitDriver -->
+      </class> <!-- org.example.Ex3 -->
+    </test> <!-- RegressionTests -->
+  </suite> <!-- V4BankGroupingSuite -->
+</testng-results>
